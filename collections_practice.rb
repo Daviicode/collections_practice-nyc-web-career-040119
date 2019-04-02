@@ -52,7 +52,7 @@ end
 
 
 def add_s(array)
-  array.each_with_index.collect {|element, index| index==1?"#{element}":"#{element}s"}
+  array.each_with_index.collect {|element, index| index== 1?"#{element}":"#{element}s"}
 end
 
 
